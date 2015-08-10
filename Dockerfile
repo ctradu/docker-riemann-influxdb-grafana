@@ -99,6 +99,9 @@ EXPOSE 8083
 EXPOSE 8086
 EXPOSE 8088
 
+# Graphite plugin of InfluxDB
+EXPOSE 2003
+
 # Riemann
 
 

@@ -14,6 +14,7 @@ case $1 in
                      -p 8083:8083 \
                      -p 8086:8086 \
                      -p 8088:8088 \
+                     -p 2003:2003 \
                      --volumes-from apcmetrics \
                      -i ctradu/riemann-influxdb-grafana /bin/bash ;;
     "build")
