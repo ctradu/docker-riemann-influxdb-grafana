@@ -10,3 +10,7 @@
 
 # Start Grafana
 /etc/init.d/grafana-server start
+
+
+# run a bash...
+/bin/bash
